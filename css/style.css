@@ -1,0 +1,105 @@
+body{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+.before_photo {
+    height: 600 px;
+    width: 750px;
+    background-color: white;
+}  
+.before_text {
+    min-height: 350px;
+    max-width: 750px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    flex-wrap: wrap;
+} 
+.proj_start_photos  {
+    
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.proj_start_text {
+    min-height: 350px;
+    max-width: 750px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    flex-wrap: wrap;
+    } 
+    .open_shelving_photos  {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+}    
+.open_shelving_text {
+    min-height: 350px;
+    max-width: 750px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    flex-wrap: wrap;
+} 
+.spice_rack_photos  {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.spice_rack_text {
+    min-height: 35px;
+    max-width: 750px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    flex-wrap: wrap;
+} 
+.uppers_photos  {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.uppers_text {
+    min-height: 350px;
+    max-width: 750px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    flex-wrap: wrap;
+} 
+.lazy_susan_photos {
+    height: 600 px;
+    width: 750px;
+    background-color: white;
+}  
+.lazy_susan_text {
+    min-height: 100px;
+    max-width: 750px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    flex-wrap: wrap; 
+}       
+.blog_name {
+    min-height: 50px;
+    max-width: 350px;
+    min-width: 150px;
+    background-color: white;
+}
+.back_to_homepage {
+    justify-content: center;
+    padding-bottom: 5em;
+}
