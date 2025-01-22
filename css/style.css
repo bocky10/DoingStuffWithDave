@@ -4,7 +4,6 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    
 }
 .before_photo {
     height: 600 px;
@@ -35,7 +34,7 @@ body{
     background-color: white;
     flex-wrap: wrap;
     } 
-    .open_shelving_photos  {
+.open_shelving_photos  {
         background-color: white;
         display: flex;
         flex-direction: row;
@@ -93,13 +92,83 @@ body{
     background-color: white;
     flex-wrap: wrap; 
 }       
-.blog_name {
+.blog {
+    font-size: 25pt;
     min-height: 50px;
     max-width: 350px;
     min-width: 150px;
     background-color: white;
+    display: flex;
+    flex-direction: column; /* Stacks "Blog" and "Dave Bock" vertically */
+    align-items: center; /* Centers the items horizontally */
+    text-align: center; 
+}
+.name {
+    font-size: 20pt;
+    min-height: 50px;
+    max-width: 350px;
+    min-width: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* Stacks "Blog" and "Dave Bock" vertically */
+    align-items: center; /* Centers the items horizontally */
+    text-align: center; 
 }
 .back_to_homepage {
     justify-content: center;
     padding-bottom: 5em;
+}
+.index {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.coffee_table_overview_photo {
+    height: 600 px;
+    width: 750px;
+    background-color: white;
+
+}
+.coffee_table_text_1 {
+    min-height: 115px;
+    max-width: 750px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.coffee_table_photos_1  {
+    
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.coffee_table_text_2 {
+    min-height: 270px;
+    max-width: 750px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    flex-wrap: wrap;
+} 
+.coffee_table_photos_2  {
+    
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+}
+.coffee_table_text_3 {
+        min-height: 300px;
+        max-width: 750px;
+        min-width: 500px;
+        font-size: 15pt;
+        background-color: white;
+        flex-wrap: wrap;
+        } 
+.title h1 {
+        text-align: center;
 }
