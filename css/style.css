@@ -172,3 +172,95 @@ body{
 .title h1 {
         text-align: center;
 }
+.mt_cook_photos {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center; /* Align images to the same height */
+}
+
+.mt_cook_photos img {
+    height: 310px; /* Set a uniform height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures uniform appearance */
+}
+.mt_cook_text {
+    min-height: 150px;
+    max-width: 1200px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    text-align: justify; /* Justify text */
+    margin: 20px auto; /* Center the div horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the text content */ 
+} 
+.hermitage_1_and_2_pictures {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center; /* Ensures vertical alignment */
+}
+
+.hermitage_1_and_2_pictures img {
+    height: 375px; /* Set a fixed height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures uniform appearance */
+}
+.hermitage_1_and_2_text {
+    min-height: 150px;
+    max-width: 1200px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    text-align: justify; /* Justify text */
+    margin: 20px auto; /* Center the div horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the text content */ 
+} 
+.three_picture_layout {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center; /* Ensures vertical alignment */
+}
+
+.three_picture_layout img {
+    height: 375px; /* Set a fixed height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures uniform appearance */
+}
+.standard_text_layout {
+    min-height: 100px;
+    max-width: 1200px;
+    min-width: 500px;
+    font-size: 15pt;
+    background-color: white;
+    text-align: justify; /* Justify text */
+    margin: 20px auto; /* Center the div horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the text content */ 
+} 
+.three_picture_custom {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center; /* Ensures vertical alignment */
+}
+
+.three_picture_custom img {
+    height: 300px; /* Set a fixed height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures uniform appearance */
+}
